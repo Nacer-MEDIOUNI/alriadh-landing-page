@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./index.css";
 import alriadhLogo from "../assets/alriadh-logo.png";
+import { CgMenuRight } from "react-icons/cg";
 
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
@@ -92,14 +93,14 @@ const Header = () => {
         </a>
       </nav>
       <div className="header__menu-icon" onClick={() => setShowNav(!showNav)}>
-        &#9776;
+        <CgMenuRight />
       </div>
       {showNav && (
         <div
           className="header__nav__close-icon"
           onClick={() => setShowNav(false)}
         >
-          &times;
+          <CgMenuRight />
         </div>
       )}
     </header>

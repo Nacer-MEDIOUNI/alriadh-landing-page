@@ -93,6 +93,7 @@ a.active::after {
 .header__menu-icon {
   display: none;
   cursor: pointer;
+  color: white;
 }
 
 .header__nav__close-icon {
@@ -108,8 +109,8 @@ a.active::after {
 @media (max-width: 768px) {
  
  .header {
-  width: 85vw;
-  padding: 0px 20px 0px 20px;
+  height: 80px;
+  padding: 40px 60px 0 60px;
  }
   .header__nav {
     display: none;
@@ -120,8 +121,14 @@ a.active::after {
 
   }
 
+  .header__logo {
+
+    width: 55px;
+  height: 55px;
+  }
+
   .header__menu-icon {
-    display: block;  
+    display: block; 
   }
   
   .header__nav a {  
