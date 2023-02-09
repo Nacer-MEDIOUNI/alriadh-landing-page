@@ -7,11 +7,11 @@ const Footer = () => {
       <section className="footer" id="footer">
         <img src={alriadhLogo} alt="" />
         <div className="links">
-          <a href="#">عن مدينتي </a>
-          <a href="#">خدمات مدينتي </a>
-          <a href="#">دليل استخدام مدينتي </a>
-          <a href="#">الشركاء </a>
-          <a href="#">التواصل </a>
+          <a href="section1">عن مدينتي </a>
+          <a href="section1">خدمات مدينتي </a>
+          <a href="section1">دليل استخدام مدينتي </a>
+          <a href="section1">الشركاء </a>
+          <a href="section1">التواصل </a>
         </div>
       </section>
     </div>
