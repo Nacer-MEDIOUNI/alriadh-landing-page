@@ -1,0 +1,150 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding: 0 97px;
+  padding-top: 38px;
+  background-color: transparent;
+  transition: background-color 0.5s ease, transform 0.5s ease;  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  transform: translateY(0);
+}
+
+.header.fixed {
+  top: 0;
+  position: fixed;
+  transition: background-color  0.5s ease-out;
+  z-index: 9999;
+
+}
+
+.header__logo {
+  font-size: 20px;
+  font-weight: bold;
+  width: 68px;
+height: 68px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav a {
+  font-family: "Somar Light";
+
+  color: #fff;
+  text-decoration: none;
+  margin-right: 29px;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+a.active {
+  font-weight: bold;
+  font-family: "Somar Bold";
+
+}
+
+
+a.active::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  position: relative;
+  top: 11.5px;
+  right: 0;
+  font-weight: bold;
+}
+
+.header--scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.949);
+  transform: translateY(-40px);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.header--scrolled a {
+  color: #373737;
+}
+
+.header--scrolled a.active::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #373737;
+  position: relative;
+  top: 11.5px;
+  right: 0;
+  font-weight: bold;
+}
+
+
+.header__menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.header__nav__close-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+
+
+@media (max-width: 768px) {
+ 
+ .header {
+  width: 85vw;
+  padding: 0px 20px 0px 20px;
+ }
+  .header__nav {
+    display: none;
+
+  }
+  .header__nav {
+    display: none;
+
+  }
+
+  .header__menu-icon {
+    display: block;  
+  }
+  
+  .header__nav a {  
+  color: #373737;
+  }
+
+  .header__nav--show {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: calc(100vh - 60px);
+    z-index: 1;
+    flex-direction: column;
+    justify-content: center;
+    
+
+  }
+}
+
+
