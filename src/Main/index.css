@@ -1,658 +1,573 @@
-main{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.firstSection{    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+.firstSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 
-    width: 100%;
-height: 657px;
-background: #076D38;
-border-radius: 19px;
+  width: 100%;
+  height: 657px;
+  background: #076d38;
+  border-radius: 19px;
 }
 
 .firstSection img {
-    z-index: -999;
-    width: 100%;
-    height: 657px;
+  z-index: -999;
+  width: 100%;
+  height: 657px;
 }
 
 .firstSection p {
-    font-family: "Somar Light";
-    width: 585px;
-    height: 95px;
-    top: 299px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    color: white;
-    text-align: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 31px;    
+  font-family: "Somar Light";
+  width: 585px;
+  height: 95px;
+  top: 299px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
 }
-
-
 
 .firstSection h3 {
-    font-family: "Somar Light";
+  font-family: "Somar Light";
 
-    font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 35px;
-    margin: 0;
-    text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 35px;
+  margin: 0;
+  text-align: center;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
-
-.firstSection--text{
-    margin-top: 80px;
-    margin-bottom: 0px;
+.firstSection--text {
+  margin-top: 80px;
+  margin-bottom: 0px;
 }
 
-.store--logos{
-    position: relative;
-    top: 82px;
-    right: 73px;
-    align-self: flex-end;
-
+.store--logos {
+  position: relative;
+  top: 82px;
+  right: 73px;
+  align-self: flex-end;
 }
 
-.store--logos img{
-    width: 185px;
-    height: 68px;
+.store--logos img {
+  width: 185px;
+  height: 68px;
 }
 
 .qrCode {
-    position: fixed;
-    width: 180px;
-    height: 206px;
-    left: 93px;
-    top: 451px;
+  position: fixed;
+  width: 180px;
+  height: 206px;
+  left: 93px;
+  top: 451px;
 }
 
 .firstPhone {
-    z-index: 999;
-    position: absolute;
-    top: 455px ;
-    width: 735.58px;
-    height: 837px;
+  z-index: 999;
+  position: absolute;
+  top: 455px;
+  width: 735.58px;
+  height: 837px;
 }
 
 .secondSection {
-    display: flex ;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap-reverse;
-    width: 100%;
-    height: 657px;
-    margin-right: 164px;
-    margin-top: 686px;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  height: 657px;
+  margin-right: 164px;
+  margin-top: 686px;
 }
 
 .secondSection--text {
-    width: 491px;
-align-self: flex-end;
-margin-top: 124px;
+  width: 491px;
+  align-self: flex-end;
+  margin-top: 124px;
 }
 
-.secondSection--text h3{
-    font-family: "Somar Light";
-    margin: 0 !important;
+.secondSection--text h3 {
+  font-family: "Somar Light";
+  margin: 0 !important;
 
-    font-size: 52.5665px;
-    line-height: 85px;
-    text-align: right;
+  font-size: 52.5665px;
+  line-height: 85px;
+  text-align: right;
 
-    color: #373737;
-
+  color: #373737;
 }
 
-.secondSection--text span{
-    font-family: "Somar Bold";
+.secondSection--text span {
+  font-family: "Somar Bold";
 
-font-weight: 800;
+  font-weight: 800;
 }
 
-.secondSection--text p{
-    margin: 0 ;
-    margin-top: 16px;
+.secondSection--text p {
+  margin: 0;
+  margin-top: 16px;
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 35px;
-    text-align: right; 
-    color: #5F5F5F;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: right;
+  color: #5f5f5f;
 }
 
-
-.secondSection img{
-    width: 387px;
-height: 562px;
-margin-left: 425px;
-
- 
+.secondSection img {
+  width: 387px;
+  height: 562px;
+  margin-left: 425px;
 }
-
-
-
 
 .thirdSection {
-    display: flex ;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap-reverse;
-    width: 100%;
-    margin-right: 164px;
-    margin-top: 175px;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  margin-right: 164px;
+  margin-top: 175px;
 }
 
 .thirdSection--text {
-    width: 491px;
-align-self: flex-end;
-margin-top: 38px;
+  width: 491px;
+  align-self: flex-end;
+  margin-top: 38px;
 }
 
-.thirdSection--text h3{
-    font-family: "Somar Bold";
-    margin: 0;
-    font-size: 52.5665px;
-    line-height: 85px;
-    text-align: right;
+.thirdSection--text h3 {
+  font-family: "Somar Bold";
+  margin: 0;
+  font-size: 52.5665px;
+  line-height: 85px;
+  text-align: right;
 
-    color: #373737;
-
+  color: #373737;
 }
 
-.thirdSection--text span{
-    font-family: "Somar Bold";
+.thirdSection--text span {
+  font-family: "Somar Bold";
 
-font-weight: 800;
+  font-weight: 800;
 }
 
-.thirdSection--text p{
-    margin: 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 35px;
-    /* or 177% */
-margin-top: 16px;
-    
-    text-align: right;
-    
-    color: #5F5F5F;
+.thirdSection--text p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 35px;
+  /* or 177% */
+  margin-top: 16px;
+
+  text-align: right;
+
+  color: #5f5f5f;
 }
 
-
-.thirdSection img{
-    width: 478px;
-    height: 786px;
-margin-left: 425px;
-
- 
+.thirdSection img {
+  width: 478px;
+  height: 786px;
+  margin-left: 425px;
 }
 
-.thirdSection_rightSide{
-    display: flex;
-    flex-direction: column;
+.thirdSection_rightSide {
+  display: flex;
+  flex-direction: column;
 }
-
-
 
 .subTitle--section--Icon {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-margin-top: 34px;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 34px;
+}
 
 .subTitle--section img {
-width: 54px;
-height: auto;
-margin: 0;
-
+  width: 54px;
+  height: auto;
+  margin: 0;
 }
 
-.subTitle--section p{
-margin: 0 22px 0 0 ;
-
+.subTitle--section p {
+  margin: 0 22px 0 0;
 }
-
-
-
-
-
-
 
 .fourthSection {
-    display: flex ;
-    align-items: center;
-    justify-content: flex-end;
-    flex-wrap: wrap-reverse;
-    width: 100%;
-    margin-right: 164px;
-    margin-top: 175px;
-
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  margin-right: 164px;
+  margin-top: 175px;
 }
 
 .fourthSection--text {
-    width: 491px;
-align-self: flex-end;
-margin-top: 38px;
+  width: 491px;
+  align-self: flex-end;
+  margin-top: 38px;
 }
 
-.fourthSection--text h3{
-    font-family: "Somar Bold";
-    margin: 0;
-    font-size: 40px;
-    line-height: 85px;
-    text-align: right;
+.fourthSection--text h3 {
+  font-family: "Somar Bold";
+  margin: 0;
+  font-size: 40px;
+  line-height: 85px;
+  text-align: right;
 
-    color: #373737;
-
+  color: #373737;
 }
 
-.fourthSection--text span{
-    font-family: "Somar Bold";
+.fourthSection--text span {
+  font-family: "Somar Bold";
 
-font-weight: 800;
+  font-weight: 800;
 }
 
-.fourthSection--text p{
-    margin: 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 35px;
-    /* or 177% */
-margin-top: 16px;
-    
-    text-align: right;
-    
-    color: #5F5F5F;
+.fourthSection--text p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 35px;
+  /* or 177% */
+  margin-top: 16px;
+
+  text-align: right;
+
+  color: #5f5f5f;
 }
 
-
-.fourthSection img{
-    width: 387px;
-    height: 615px;
-margin-left: 100px;
-
- 
+.fourthSection img {
+  width: 387px;
+  height: 615px;
+  margin-left: 100px;
 }
 
-.subTitle--fourthsection{
-    width: 596px;
-    display: flex;
-    justify-content: space-between;
+.subTitle--fourthsection {
+  width: 596px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.fourthSection_rightSide{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+.fourthSection_rightSide {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.subTitle--fourthsection--right{
-    display: flex;
-    flex-direction: column;
+.subTitle--fourthsection--right {
+  display: flex;
+  flex-direction: column;
 }
 
-.subTitle--fourthsection--left{
-    display: flex;
-    flex-direction: column;
+.subTitle--fourthsection--left {
+  display: flex;
+  flex-direction: column;
 }
-
 
 .subTitle--fourthSection--Icon {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-margin-top: 41px;
-
-    }
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 41px;
+}
 
 .subTitle--fourthSection--Icon img {
-width: 54px;
-height: auto;
-margin: 0;
-
+  width: 54px;
+  height: auto;
+  margin: 0;
 }
 
-.subTitle--fourthSection--Icon p{
-margin: 0 22px 0 0 ;
-
+.subTitle--fourthSection--Icon p {
+  margin: 0 22px 0 0;
 }
-
-
-
-
-
 
 .fifthSection {
-    display: flex ;
-    align-items: center;
-    justify-content: flex-end;
-    flex-wrap: wrap-reverse;
-    width: 100%;
-    margin-right: 305px;    
-    margin-top: 161px;
-
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  margin-right: 305px;
+  margin-top: 161px;
 }
 
 .fifthSection--text {
-    width: 491px;
-align-self: flex-end;
-margin-top: 34px;
+  width: 491px;
+  align-self: flex-end;
+  margin-top: 34px;
 }
 
-.fifthSection--text h3{
-    font-family: "Somar Bold";
-    margin: 0;
-    font-size: 40px;
-    line-height: 85px;
-    text-align: right;
+.fifthSection--text h3 {
+  font-family: "Somar Bold";
+  margin: 0;
+  font-size: 40px;
+  line-height: 85px;
+  text-align: right;
 
-    color: #373737;
-
+  color: #373737;
 }
 
+.fifthSection--text p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 35px;
+  /* or 177% */
+  margin-top: 18px;
 
-.fifthSection--text p{
-    margin: 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 35px;
-    /* or 177% */
-margin-top: 18px;
-    
-    text-align: right;
-    
-    color: #5F5F5F;
+  text-align: right;
+
+  color: #5f5f5f;
 }
 
-
-.fifthSection img{
-margin-right: 179px;
-height: 631px;
-width: 387px;
+.fifthSection img {
+  margin-right: 179px;
+  height: 631px;
+  width: 387px;
 }
 
-.cardImg{
-    margin-top: 77px;
-    margin-left: 66px;
-    margin-right: 0 !important;
-    width: 428px !important;
-    height: 245px !important;
+.cardImg {
+  margin-top: 77px;
+  margin-left: 66px;
+  margin-right: 0 !important;
+  width: 428px !important;
+  height: 245px !important;
 }
-
-
-
-
-
 
 .sixthSection {
-    display: flex ;
-    align-items: center;
-    justify-content: flex-end;
-    flex-wrap: wrap-reverse;
-    width: 100%;
-    margin-right: 305px;    
-    margin-top: 140px;
-
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  margin-right: 305px;
+  margin-top: 140px;
 }
 
 .sixthSection--text {
-    width: 491px;
-align-self: flex-end;
-margin-top: 34px;
+  width: 491px;
+  align-self: flex-end;
+  margin-top: 34px;
 }
 
-.sixthSection--text h3{
-    font-family: "Somar Bold";
-    margin: 0;
-    font-size: 40px;
-    line-height: 85px;
-    text-align: right;
+.sixthSection--text h3 {
+  font-family: "Somar Bold";
+  margin: 0;
+  font-size: 40px;
+  line-height: 85px;
+  text-align: right;
 
-    color: #373737;
-
+  color: #373737;
 }
 
+.sixthSection--text p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 35px;
+  /* or 177% */
+  margin-top: 18px;
 
-.sixthSection--text p{
-    margin: 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 35px;
-    /* or 177% */
-margin-top: 18px;
-    
-    text-align: right;
-    
-    color: #5F5F5F;
+  text-align: right;
+
+  color: #5f5f5f;
 }
 
-
-.sixthSection img{
-margin-left: 196px;
-height: 631px;
-width: 387px;
+.sixthSection img {
+  margin-left: 196px;
+  height: 631px;
+  width: 387px;
 }
-
-
-
-
-
 
 .seventhSection {
-    display: flex ;
-    align-items: center;
-    justify-content: flex-end;
-    flex-wrap: wrap-reverse;
-    width: 100%;
-    margin-right: 305px;    
-    margin-top: 329px;
-
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  margin-right: 305px;
+  margin-top: 329px;
 }
 
 .seventhSection--text {
-    width: 542px;
-align-self: center;
-margin-top: 34px;
+  width: 542px;
+  align-self: center;
+  margin-top: 34px;
 }
 
-.seventhSection--text h3{
-    font-family: "Somar Bold";
-    margin: 0;
-    font-size: 40px;
-    line-height: 85px;
-    text-align: right;
+.seventhSection--text h3 {
+  font-family: "Somar Bold";
+  margin: 0;
+  font-size: 40px;
+  line-height: 85px;
+  text-align: right;
 
-    color: #373737;
-
+  color: #373737;
 }
 
+.seventhSection--text p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 35px;
+  /* or 177% */
+  margin-top: 18px;
 
-.seventhSection--text p{
-    margin: 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 35px;
-    /* or 177% */
-margin-top: 18px;
-    
-    text-align: right;
-    
-    color: #5F5F5F;
+  text-align: right;
+
+  color: #5f5f5f;
 }
 
-
-.seventhSection img{
-margin-right: 140px;
-height: 387px;
+.seventhSection img {
+  margin-right: 140px;
+  height: 387px;
 }
-
-
-
 
 .eigthSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center ;
-    margin-top: 328px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 328px;
 }
 
 .eigthSection h3 {
-    font-family: 'Somar';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 65px;
-    text-align: right;
-    color: #212121;
-    margin: auto;
-    
+  font-family: "Somar";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 65px;
+  text-align: right;
+  color: #212121;
+  margin: auto;
 }
 
-.partnersLogos{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 71px;
+.partnersLogos {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 71px;
 }
 
-
-
-.partnersLogos img:nth-child(2){
+.partnersLogos img:nth-child(2) {
   margin-left: 187px;
   margin-right: 187px;
 }
 
-
-
-
-
-
-.ninethSection{    
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    height: 471px;
-    background-color: #CAECDB;
-    border-radius: 19px;
-    margin-top: 427px;
+.ninethSection {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 471px;
+  background-color: #caecdb;
+  border-radius: 19px;
+  margin-top: 427px;
 }
 
 .ninethSection img {
-    z-index: 999;
-    align-self: flex-end;
-    margin-right: 67px;
+  z-index: 999;
+  align-self: flex-end;
+  margin-right: 67px;
 }
 
 .ninethSection p {
-    font-family: "Somar Light";
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 35px;
-text-align: right;
-color: #5F5F5F;
-width: 569px;
-height: 71px;
-margin-bottom: 74px;
-
+  font-family: "Somar Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: right;
+  color: #5f5f5f;
+  width: 569px;
+  height: 71px;
+  margin-bottom: 74px;
 }
-
-
 
 .ninethSection h3 {
-    font-family: "Somar";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 65px;
-    text-align: right;
-    color: #212121;
-    margin: 0;
+  font-family: "Somar";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 65px;
+  text-align: right;
+  color: #212121;
+  margin: 0;
 }
 
-
-.ninethSection--text{
-    margin-top: 21px;
-    margin-right: 119px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.ninethSection--text {
+  margin-top: 21px;
+  margin-right: 119px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-
-.ninethSection--buttons button{
-    width: 225px;
-    height: 70px;
-    cursor: pointer;
-    background: #076D38;
-    border-radius: 35px;
-    border: none;
-    color: white;
-    font-family: 'Somar Light';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 29px;
+.ninethSection--buttons button {
+  width: 225px;
+  height: 70px;
+  cursor: pointer;
+  background: #076d38;
+  border-radius: 35px;
+  border: none;
+  color: white;
+  font-family: "Somar Light";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
 }
 
-.ninethSection--buttons a{
-    width: 125px;
-    height: 37px;
-    
-    font-family: 'Somar';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 37px;
-    text-align: right;
-    text-decoration-line: underline;
-    margin-right: 50px;
-    color: #076D38;
+.ninethSection--buttons a {
+  width: 125px;
+  height: 37px;
+
+  font-family: "Somar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 37px;
+  text-align: right;
+  text-decoration-line: underline;
+  margin-right: 50px;
+  color: #076d38;
 }
 
-
-
-
-
-
-.tenthSection{    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 471px;
-    background-color: #CAECDB;
-    border-radius: 19px;
-    margin-top: 38px;
+.tenthSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 471px;
+  background-color: #caecdb;
+  border-radius: 19px;
+  margin-top: 38px;
 }
 
 .tenthSection img {
@@ -660,666 +575,653 @@ line-height: 29px;
 }
 
 .tenthSection p {
-    font-family: "Somar";
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 35px;
-text-align: right;
-color: #5F5F5F;
-width: 569px;
-height: 71px;
-margin-bottom: 41px;
-
+  font-family: "Somar";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: right;
+  color: #5f5f5f;
+  width: 569px;
+  height: 71px;
+  margin-bottom: 41px;
 }
-
-
 
 .tenthSection h3 {
-    font-family: "Somar Bold";
-    width: 390px;
-    height: 65px;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 65px;
-    text-align: center;
-    color: #373737;
-    margin: 0;
+  font-family: "Somar Bold";
+  width: 390px;
+  height: 65px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 65px;
+  text-align: center;
+  color: #373737;
+  margin: 0;
 }
 
+.tenthSection--text {
+  margin-bottom: 77px;
+  margin-right: 146px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 
-.tenthSection--text{
-    margin-bottom: 77px;
-    margin-right: 146px;
+.tenthSection--buttons button {
+  width: 354px;
+  height: 70px;
+  cursor: pointer;
+  background: #076d38;
+  border-radius: 35px;
+  border: none;
+  color: white;
+  font-family: "Somar Light";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23.8776px;
+  line-height: 39px;
+  margin-left: 17px;
+}
+
+@media (max-width: 767px) {
+  .firstSection {
+    justify-content: flex-start;
+  }
+
+  .firstSection img {
+    z-index: -999;
+    width: 100%;
+    height: 657px;
+  }
+
+  .firstSection p {
+    width: 288px;
+  }
+
+  .firstSection h3 {
+    font-size: 35px;
+  }
+
+  .firstSection--text {
+    margin-top: 120px;
+    margin-bottom: 0px;
+  }
+
+  .store--logos {
+    position: relative;
+    top: 82px;
+    text-align: right;
+  }
+
+  .store--logos img {
+    width: 185px;
+    height: 68px;
+  }
+
+  .qrCode {
+    position: fixed;
+    width: 90px;
+    height: 103px;
+    left: 30px;
+    top: 500px;
+    z-index: 9999;
+  }
+
+  .firstPhone {
+    z-index: 999;
+    position: absolute;
+    top: 560px;
+    width: 315px;
+    height: 330px;
+    left: 45px;
+  }
+
+  .secondSection {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    height: 657px;
+    margin-right: 0px;
+    margin-top: 390px;
+  }
 
-
-.tenthSection--buttons button{
-    width: 354px;
-    height: 70px;   
-cursor: pointer;
-    background: #076D38;
-    border-radius: 35px;
-    border: none;
-    color: white;
-    font-family: 'Somar Light';
-font-style: normal;
-font-weight: 600;
-font-size: 23.8776px;
-line-height: 39px;
-margin-left: 17px;
-}
-
-
-
-@media (max-width:767px) {
-    
-    .firstSection{    
-    
-        justify-content: flex-start;
-    
-    
-    
-    }
-    
-    .firstSection img {
-        z-index: -999;
-        width: 100%;
-        height: 657px;
-    }
-    
-    .firstSection p {
-    width: 288px; 
-    }
-    
-    .firstSection h3 {
-        font-size: 35px;
-    }
-    
-    
-    .firstSection--text{
-        margin-top: 120px;
-        margin-bottom: 0px;
-    }
-    
-    .store--logos{
-        position: relative;
-        top: 82px;
-        text-align: right;
-    
-    }
-    
-    .store--logos img{
-        width: 185px;
-        height: 68px;
-    }
-    
-    .qrCode {
-        position: fixed;
-        width: 90px;
-        height: 103px;
-        left: 30px;
-        top: 500px;
-        z-index: 9999;
-    }
-    
-    .firstPhone {
-        z-index: 999;
-        position: absolute;
-        top: 560px;
-        width: 315px;
-        height: 330px;
-        left: 45px;
-    }
-    
-    
-    .secondSection {
-        display: flex ;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap-reverse;
-        width: 100%;
-        height: 657px;
-        margin-right: 0px;
-        margin-top: 390px;
-    
-    }
-    
-    .secondSection--text {
-        width: 491px;
+  .secondSection--text {
+    width: 491px;
     align-self: flex-end;
     margin-top: 124px;
     margin-bottom: 40px;
-    }
-    
-    .secondSection--text h3{
-        font-size: 40px;
-    }
-    
-    .secondSection--text span{
-        font-family: "Somar Bold";
-    
+  }
+
+  .secondSection--text h3 {
+    font-size: 40px;
+  }
+
+  .secondSection--text span {
+    font-family: "Somar Bold";
+
     font-weight: 800;
-    }
-    
-    .secondSection--text p{
-        margin: 0 ;
-        margin-top: 16px;
-    
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 35px;
-        text-align: right; 
-        color: #5F5F5F;
-    }
-    
-    
-    .secondSection img{
-        width: 270px;
-        height: 395px;
-    margin-left: 0px;
+  }
 
-
-    }
-    
-    
-    
-    
-    .thirdSection {
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        margin-right: 0px;
-    
-    }
-    
-    .thirdSection--text {
-        width: 300px;
-    align-self: flex-end;
-    margin-top: 38px;
-    }
-    
-    .thirdSection--text h3{
-        font-family: "Somar Bold";
-        margin: 0;
-        font-size: 40px;
-        line-height: 85px;
-        text-align: right;
-    
-        color: #373737;
-    
-    }
-    
-    .thirdSection--text span{
-        font-family: "Somar Bold";
-    
-    font-weight: 800;
-    }
-    
-    .thirdSection--text p{
-        margin: 0;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 19px;
-        line-height: 35px;
-        /* or 177% */
-    margin-top: 16px;
-        
-        text-align: right;
-        
-        color: #5F5F5F;
-    }
-    
-    
-    .thirdSection img{
-        width: 270px;
-        height: 418px;
-        margin-left: 425px;
-    
-     
-    }
-    
-    .thirdSection_rightSide{
-
-        margin-bottom: 90px
-;
-    }
-    
-    
-    
-    .subTitle--section--Icon {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-    margin-top: 34px;
-        }
-    
-    .subTitle--section img {
-    width: 54px;
-    height: auto;
+  .secondSection--text p {
     margin: 0;
-    
-    }
-    
-    .subTitle--section p{
-    margin: 0 22px 0 0 ;
-    
-    }
-    
-    
-    
-    
-    
-    
-    
-    .fourthSection {
-flex-direction: column;
-        margin-right: 0px;
-        margin-top: 175px;
-    
-    }
-    
-    .fourthSection--text {
-        width:360px;
-    align-self: flex-end;
-    margin-top: 38px;
-    }
-    
-    .fourthSection--text h3{
-        font-family: "Somar Bold";
-        margin: 0;
-        font-size: 40px;
-        line-height: 85px;
-        text-align: right;
-    
-        color: #373737;
-    
-    }
-    
-    .fourthSection--text span{
-        font-family: "Somar Bold";
-    
-    font-weight: 800;
-    }
-    
-    .fourthSection--text p{
-        margin: 0;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 19px;
-        line-height: 35px;
-        /* or 177% */
     margin-top: 16px;
-        
-        text-align: right;
-        
-        color: #5F5F5F;
-    }
-    
-    
-    .fourthSection img{
-        width: 254px;
-        height: 370px;
-        margin-left: 200px;
-    }
-    
-    .subTitle--fourthsection{
-            display: flex;
-            flex-direction: column;
-    }
-    
-    .fourthSection_rightSide{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 600px;
-        margin-bottom: 90px;
-    }
-    
-    .subTitle--fourthsection--right{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .subTitle--fourthsection--left{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    
-    .subTitle--fourthSection--Icon {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-    margin-top: 41px;
-    
-        }
-    
-    .subTitle--fourthSection--Icon img {
-    width: 54px;
-    height: auto;
-    margin: 0;
-    
-    }
-    
-    .subTitle--fourthSection--Icon p{
-    margin: 0 22px 0 0 ;
-    
-    }
-    
-    
-    
-    
-    
-    .sixthSection {
-        display: flex ;
-        align-items: center;
-        justify-content: flex-end;
-        flex-wrap: wrap-reverse;
-        width: 100%;
-        margin-right: 305px;    
-        margin-top: 140px;
-    
-    }
-    
-    .sixthSection--text {
-        width: 491px;
-    align-self: flex-end;
-    margin-top: 34px;
-    }
-    
-    .sixthSection--text h3{
-        font-family: "Somar Bold";
-        margin: 0;
-        font-size: 40px;
-        line-height: 85px;
-        text-align: right;
-    
-        color: #373737;
-    
-    }
-    
-    
-    .sixthSection--text p{
-        margin: 0;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 19px;
-        line-height: 35px;
-        /* or 177% */
-    margin-top: 18px;
-        
-        text-align: right;
-        
-        color: #5F5F5F;
-    }
-    
-    
-    .sixthSection img{
-    margin-left: 196px;
-    height: 631px;
-    width: 387px;
-    }
-    
-    
-    
-    
-    
-    
-    .seventhSection {
-        display: flex ;
-        align-items: center;
-        justify-content: flex-end;
-        flex-wrap: wrap-reverse;
-        width: 100%;
-        margin-right: 305px;    
-        margin-top: 329px;
-    
-    }
-    
-    .seventhSection--text {
-        width: 542px;
-    align-self: center;
-    margin-top: 34px;
-    }
-    
-    .seventhSection--text h3{
-        font-family: "Somar Bold";
-        margin: 0;
-        font-size: 40px;
-        line-height: 85px;
-        text-align: right;
-    
-        color: #373737;
-    
-    }
-    
-    
-    .seventhSection--text p{
-        margin: 0;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 19px;
-        line-height: 35px;
-        /* or 177% */
-    margin-top: 18px;
-        
-        text-align: right;
-        
-        color: #5F5F5F;
-    }
-    
-    
-    .seventhSection img{
-    margin-right: 140px;
-    height: 387px;
-    }
-    
-    
-    
-    
-    .eigthSection {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center ;
-        margin-top: 328px;
-    }
-    
-    .eigthSection h3 {
-        font-family: 'Somar';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 40px;
-        line-height: 65px;
-        text-align: right;
-        color: #212121;
-        margin: auto;
-        
-    }
-    
-    .partnersLogos{
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 71px;
-    }
-    
-    
-    
-    .partnersLogos img:nth-child(2){
-      margin-left: 187px;
-      margin-right: 187px;
-    }
-    
-    
-    
-    
-    
-    
-    .ninethSection{    
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        width: 100%;
-        height: 471px;
-        background-color: #CAECDB;
-        border-radius: 19px;
-        margin-top: 427px;
-    }
-    
-    .ninethSection img {
-        z-index: 999;
-        align-self: flex-end;
-        margin-right: 67px;
-    }
-    
-    .ninethSection p {
-        font-family: "Somar Light";
+
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
     text-align: right;
-    color: #5F5F5F;
-    width: 569px;
-    height: 71px;
-    margin-bottom: 74px;
-    
-    }
-    
-    
-    
-    .ninethSection h3 {
-        font-family: "Somar";
-        font-style: normal;
-        font-weight: 600;
-        font-size: 40px;
-        line-height: 65px;
-        text-align: right;
-        color: #212121;
-        margin: 0;
-    }
-    
-    
-    .ninethSection--text{
-        margin-top: 21px;
-        margin-right: 119px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-    
-    
-    .ninethSection--buttons button{
-        width: 225px;
-        height: 70px;
-        cursor: pointer;
-        background: #076D38;
-        border-radius: 35px;
-        border: none;
-        color: white;
-        font-family: 'Somar Light';
+    color: #5f5f5f;
+  }
+
+  .secondSection img {
+    width: 270px;
+    height: 395px;
+    margin-left: 0px;
+  }
+
+  .thirdSection {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 0px;
+  }
+
+  .thirdSection--text {
+    width: 300px;
+    align-self: flex-end;
+    margin-top: 38px;
+  }
+
+  .thirdSection--text h3 {
+    font-family: "Somar Bold";
+    margin: 0;
+    font-size: 40px;
+    line-height: 85px;
+    text-align: right;
+
+    color: #373737;
+  }
+
+  .thirdSection--text span {
+    font-family: "Somar Bold";
+
+    font-weight: 800;
+  }
+
+  .thirdSection--text p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 35px;
+    /* or 177% */
+    margin-top: 16px;
+
+    text-align: right;
+
+    color: #5f5f5f;
+  }
+
+  .thirdSection img {
+    width: 270px;
+    height: 418px;
+    margin-left: 425px;
+  }
+
+  .thirdSection_rightSide {
+    margin-bottom: 90px;
+  }
+
+  .subTitle--section--Icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 34px;
+  }
+
+  .subTitle--section img {
+    width: 54px;
+    height: auto;
+    margin: 0;
+  }
+
+  .subTitle--section p {
+    margin: 0 22px 0 0;
+  }
+
+  .fourthSection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  .fourthSection--text {
+    width: auto;
+    align-self: flex-end;
+    margin-top: 38px;
+  }
+
+  .fourthSection--text h3 {
+    font-family: "Somar Bold";
+    margin: 0;
+    font-size: 40px;
+    line-height: 85px;
+    text-align: right;
+
+    color: #373737;
+  }
+
+  .fourthSection--text span {
+    font-family: "Somar Bold";
+
+    font-weight: 800;
+  }
+
+  .fourthSection--text p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 35px;
+    margin-top: 16px;
+    text-align: right;
+    color: #5f5f5f;
+  }
+
+  .fourthSection img {
+    width: 100%;
+    height: auto;
+    margin-left: 100px;
+  }
+
+  .subTitle--fourthsection {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .fourthSection_rightSide {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .subTitle--fourthsection--right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subTitle--fourthsection--left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subTitle--fourthSection--Icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 41px;
+  }
+
+  .subTitle--fourthSection--Icon img {
+    width: 54px;
+    height: auto;
+    margin: 0;
+  }
+
+  .subTitle--fourthSection--Icon p {
+    margin: 0 22px 0 0;
+  }
+
+  .fifthSection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    margin-top: 5rem;
+    margin: auto;
+  }
+
+  .fifthSection--text {
+    width: auto;
+    align-self: flex-end;
+    margin-top: 34px;
+  }
+
+  .fifthSection--text h3 {
+    font-family: "Somar Bold";
+    margin: 0;
+    font-size: 40px;
+    line-height: 85px;
+    text-align: right;
+
+    color: #373737;
+  }
+
+  .fifthSection--text p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 35px;
+    /* or 177% */
+    margin-top: 18px;
+
+    text-align: right;
+
+    color: #5f5f5f;
+  }
+
+  .fifthSection img {
+    height: auto !important;
+    width: 100% !important;
+    margin: auto;
+  }
+
+  .cardImg {
+    margin-top: 77px;
+    margin-left: 66px;
+    margin-right: 0 !important;
+    width: 428px !important;
+    height: 245px !important;
+  }
+
+  .sixthSection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  .sixthSection--text {
+    width: 491px;
+    align-self: flex-end;
+    margin-top: 34px;
+  }
+
+  .sixthSection--text h3 {
+    font-family: "Somar Bold";
+    margin: 0;
+    font-size: 40px;
+    line-height: 85px;
+    text-align: right;
+
+    color: #373737;
+  }
+
+  .sixthSection--text p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 35px;
+    /* or 177% */
+    margin-top: 18px;
+
+    text-align: right;
+
+    color: #5f5f5f;
+  }
+
+  .sixthSection img {
+    height: auto;
+    width: 100%;
+    margin: auto;
+  }
+
+  .seventhSection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    margin-right: 0;
+    margin-top: 5rem;
+  }
+
+  .seventhSection--text {
+    width: 542px;
+    align-self: center;
+    margin-top: 34px;
+  }
+
+  .seventhSection--text h3 {
+    font-family: "Somar Bold";
+    margin: 0;
+    font-size: 30px;
+    line-height: 85px;
+    text-align: right;
+
+    color: #373737;
+  }
+
+  .seventhSection--text p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    /* or 177% */
+    margin-top: 18px;
+
+    text-align: right;
+
+    color: #5f5f5f;
+  }
+
+  .seventhSection img {
+    height: auto;
+    margin: auto;
+    width: 100%;
+  }
+
+  .eigthSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .eigthSection h3 {
+    font-family: "Somar";
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 29px;
-    }
-    
-    .ninethSection--buttons a{
-        width: 125px;
-        height: 37px;
-        
-        font-family: 'Somar';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 23px;
-        line-height: 37px;
-        text-align: right;
-        text-decoration-line: underline;
-        margin-right: 50px;
-        color: #076D38;
-    }
-    
-    
-    
-    
-    
-    
-    .tenthSection{    
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        height: 471px;
-        background-color: #CAECDB;
-        border-radius: 19px;
-        margin-top: 38px;
-    }
-    
-    .tenthSection img {
-      margin-left: 24px;
-    }
-    
-    .tenthSection p {
-        font-family: "Somar";
+    font-size: 24px;
+    line-height: 65px;
+    text-align: right;
+    color: #212121;
+    margin: auto;
+  }
+
+  .partnersLogos {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    flex-direction: column;
+  }
+
+  .partnersLogos img:nth-child(2) {
+    margin-left: 187px;
+    margin-right: 187px;
+  }
+
+  .ninethSection {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #caecdb;
+    border-radius: 19px;
+    margin-top: 5rem;
+    flex-direction: column;
+  }
+
+  .ninethSection img {
+    z-index: 999;
+    margin: auto;
+    width: 60%;
+  }
+
+  .ninethSection p {
+    font-family: "Somar Light";
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 18px;
     line-height: 35px;
     text-align: right;
-    color: #5F5F5F;
-    width: 569px;
+    color: #5f5f5f;
+    width: auto;
     height: 71px;
-    margin-bottom: 41px;
-    
-    }
-    
-    
-    
-    .tenthSection h3 {
-        font-family: "Somar Bold";
-        width: 390px;
-        height: 65px;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 40px;
-        line-height: 65px;
-        text-align: center;
-        color: #373737;
-        margin: 0;
-    }
-    
-    
-    .tenthSection--text{
-        margin-bottom: 77px;
-        margin-right: 146px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-    
-    
-    .tenthSection--buttons button{
-        width: 354px;
-        height: 70px;   
-    cursor: pointer;
-        background: #076D38;
-        border-radius: 35px;
-        border: none;
-        color: white;
-        font-family: 'Somar Light';
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .ninethSection h3 {
+    font-family: "Somar";
     font-style: normal;
     font-weight: 600;
-    font-size: 23.8776px;
+    font-size: 24px;
+    line-height: 65px;
+    text-align: right;
+    color: #212121;
+    margin: auto;
+  }
+
+  .ninethSection--text {
+    margin-top: 21px;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .ninethSection--buttons {
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+
+  .ninethSection--buttons button {
+    width: 125px;
+    height: 50px;
+    cursor: pointer;
+    background: #076d38;
+    border-radius: 35px;
+    border: none;
+    color: white;
+    font-family: "Somar Light";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+  }
+
+  .ninethSection--buttons a {
+    width: 125px;
+    height: 37px;
+
+    font-family: "Somar";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 37px;
+    text-align: right;
+    text-decoration-line: underline;
+    margin-right: 25px;
+    color: #076d38;
+  }
+
+  .tenthSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #caecdb;
+    border-radius: 19px;
+    margin-top: 38px;
+    flex-direction: column;
+  }
+
+  .tenthSection img {
+    margin-left: 24px;
+  }
+
+  .tenthSection p {
+    font-family: "Somar";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: right;
+    color: #5f5f5f;
+    width: 90%;
+    height: auto;
+    margin-bottom: 41px;
+    text-align: center;
+    margin: 1rem auto;
+    margin-bottom: 2rem;
+  }
+
+  .tenthSection h3 {
+    font-family: "Somar Bold";
+    width: auto;
+    height: 65px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 65px;
+    text-align: center;
+    color: #373737;
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+  .tenthSection--text {
+    margin-bottom: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+  }
+
+  .tenthSection--buttons {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .tenthSection--buttons button {
+    width: 100%;
+    height: 70px;
+    cursor: pointer;
+    background: #076d38;
+    border-radius: 35px;
+    border: none;
+    color: white;
+    font-family: "Somar Light";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 39px;
-    margin-left: 17px;
-    }
-    
-    }
+    margin-left: 0;
+  }
+}

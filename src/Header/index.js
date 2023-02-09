@@ -12,8 +12,8 @@ const Header = () => {
     const sections = [
       "section1",
       "section2",
-      "section3",
       "section4",
+      "section3",
       "section5",
     ];
 
@@ -53,7 +53,7 @@ const Header = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [scrolled]);
-
+console.log(activeLink)
   return (
     <header className={`header fixed ${scrolled ? "header--scrolled" : ""}`}>
       <a href="#section1">
@@ -63,6 +63,7 @@ const Header = () => {
         <a
           className={`${activeLink === "section5" ? "active" : ""}`}
           href="#section5"
+          onClick={() => setShowNav(!showNav)}
         >
           التواصل
         </a>
@@ -70,24 +71,28 @@ const Header = () => {
         <a
           className={`${activeLink === "section4" ? "active" : ""}`}
           href="#section4"
+          onClick={() => setShowNav(!showNav)}
         >
           الشركاء
         </a>
         <a
           className={`${activeLink === "section3" ? "active" : ""}`}
           href="#section3"
+          onClick={() => setShowNav(!showNav)}
         >
           دليل استخدام مدينتي
         </a>
         <a
           className={`${activeLink === "section2" ? "active" : ""}`}
           href="#section2"
+          onClick={() => setShowNav(!showNav)}
         >
           خدمات مدينتي
         </a>
         <a
           className={`${activeLink === "section1" ? "active" : ""}`}
           href="#section1"
+          onClick={() => setShowNav(!showNav)}
         >
           عن مدينتي
         </a>
