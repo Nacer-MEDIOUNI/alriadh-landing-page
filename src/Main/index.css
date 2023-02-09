@@ -785,7 +785,7 @@ margin-left: 17px;
         width: 100%;
         height: 657px;
         margin-right: 0px;
-        margin-top: 686px;
+        margin-top: 390px;
     
     }
     
@@ -793,18 +793,11 @@ margin-left: 17px;
         width: 491px;
     align-self: flex-end;
     margin-top: 124px;
+    margin-bottom: 40px;
     }
     
     .secondSection--text h3{
-        font-family: "Somar Light";
-        margin: 0 !important;
-    
-        font-size: 52.5665px;
-        line-height: 85px;
-        text-align: right;
-    
-        color: #373737;
-    
+        font-size: 40px;
     }
     
     .secondSection--text span{
@@ -827,9 +820,9 @@ margin-left: 17px;
     
     
     .secondSection img{
-        width: 87px;
-    height: 62px;
-    margin-left: 425px;
+        width: 270px;
+        height: 395px;
+    margin-left: 0px;
 
 
     }
@@ -838,18 +831,15 @@ margin-left: 17px;
     
     
     .thirdSection {
-        display: flex ;
+        display: flex;
         align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap-reverse;
-        width: 100%;
-        margin-right: 164px;
-        margin-top: 175px;
+        justify-content: end;
+        margin-right: 0px;
     
     }
     
     .thirdSection--text {
-        width: 491px;
+        width: 300px;
     align-self: flex-end;
     margin-top: 38px;
     }
@@ -857,7 +847,7 @@ margin-left: 17px;
     .thirdSection--text h3{
         font-family: "Somar Bold";
         margin: 0;
-        font-size: 52.5665px;
+        font-size: 40px;
         line-height: 85px;
         text-align: right;
     
@@ -887,16 +877,17 @@ margin-left: 17px;
     
     
     .thirdSection img{
-        width: 478px;
-        height: 786px;
-    margin-left: 425px;
+        width: 270px;
+        height: 418px;
+        margin-left: 425px;
     
      
     }
     
     .thirdSection_rightSide{
-        display: flex;
-        flex-direction: column;
+
+        margin-bottom: 90px
+;
     }
     
     
@@ -927,18 +918,14 @@ margin-left: 17px;
     
     
     .fourthSection {
-        display: flex ;
-        align-items: center;
-        justify-content: flex-end;
-        flex-wrap: wrap-reverse;
-        width: 100%;
-        margin-right: 164px;
+flex-direction: column;
+        margin-right: 0px;
         margin-top: 175px;
     
     }
     
     .fourthSection--text {
-        width: 491px;
+        width:360px;
     align-self: flex-end;
     margin-top: 38px;
     }
@@ -976,23 +963,22 @@ margin-left: 17px;
     
     
     .fourthSection img{
-        width: 387px;
-        height: 615px;
-    margin-left: 100px;
-    
-     
+        width: 254px;
+        height: 370px;
+        margin-left: 200px;
     }
     
     .subTitle--fourthsection{
-        width: 596px;
-        display: flex;
-        justify-content: space-between;
+            display: flex;
+            flex-direction: column;
     }
     
     .fourthSection_rightSide{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        width: 600px;
+        margin-bottom: 90px;
     }
     
     .subTitle--fourthsection--right{
@@ -1025,70 +1011,6 @@ margin-left: 17px;
     margin: 0 22px 0 0 ;
     
     }
-    
-    
-    
-    
-    
-    
-    .fifthSection {
-        display: flex ;
-        align-items: center;
-        justify-content: flex-end;
-        flex-wrap: wrap-reverse;
-        width: 100%;
-        margin-right: 305px;    
-        margin-top: 161px;
-    
-    }
-    
-    .fifthSection--text {
-        width: 491px;
-    align-self: flex-end;
-    margin-top: 34px;
-    }
-    
-    .fifthSection--text h3{
-        font-family: "Somar Bold";
-        margin: 0;
-        font-size: 40px;
-        line-height: 85px;
-        text-align: right;
-    
-        color: #373737;
-    
-    }
-    
-    
-    .fifthSection--text p{
-        margin: 0;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 19px;
-        line-height: 35px;
-        /* or 177% */
-    margin-top: 18px;
-        
-        text-align: right;
-        
-        color: #5F5F5F;
-    }
-    
-    
-    .fifthSection img{
-    margin-right: 179px;
-    height: 631px;
-    width: 387px;
-    }
-    
-    .cardImg{
-        margin-top: 77px;
-        margin-left: 66px;
-        margin-right: 0 !important;
-        width: 428px !important;
-        height: 245px !important;
-    }
-    
     
     
     
